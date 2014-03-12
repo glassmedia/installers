@@ -39,7 +39,7 @@ else
   VER=$(uname -r)
 fi
 echo "Detected : $OS  $VER  $BITS"
-if [ "$OS" = "Ubuntu" ] && [ "$VER" = "12.04" ]; then
+if [ "$OS" = "Ubuntu" ] && [ "$VER" = "12.10" ]; then
   echo "Ok."
 else
   echo "Sorry, this upgrade script only supports the upgrade of ZPanel on Ubuntu 12.04."
